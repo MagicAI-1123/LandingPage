@@ -31,11 +31,11 @@ export default function GithubBtn({ className }: Props) {
         'group flex cursor-pointer items-center gap-[10px] rounded-[7px] border-[1px] border-transparent bg-[#FFFFFF1A] px-[12px] py-[8px] text-[15px] text-white transition-all hover:border-[#FFFFFF1A] hover:bg-transparent md:ml-[5px] lg:ml-[20px]',
         className
       )}
-      href='https://github.com/clickvote/clickvote'
+      // href='https://github.com/clickvote/clickvote'
       target='_blank'
     >
       <Github className='h-[19px] w-[19px]' loading='lazy' />
-      <span>Star us</span>
+      <span>SerhiiKiller</span>
       <div className='h-[16px] w-[2px] bg-[#FFFFFF4D]'></div>
       <span>{repoStars}</span>
     </a>
